@@ -1,4 +1,5 @@
 # Балтаев Тимур ИУ8-22
+[![Coverage Status](https://coveralls.io/repos/github/BaltaevTimur/lab05/badge.svg?branch=master)](https://coveralls.io/github/BaltaevTimur/lab05?branch=master)
 ### Задание
 1. Создайте `CMakeList.txt` для библиотеки *banking*.
 2. Создайте модульные тесты на классы `Transaction` и `Account`.
@@ -16,8 +17,9 @@ $ mkdir third-party
 $ git submodule add https://github.com/google/googletest third-party/gtest
 ```
 ```sh
-$ mkdir .coverage
+$ mkdir coverage && cd coverage
 $ touch lcov.info
+$ cd..
 $ mkdir tests && cd tests
 $ touch test_Account.cpp
 $ touch test_Transaction.cpp
