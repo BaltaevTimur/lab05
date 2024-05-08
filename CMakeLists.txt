@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.4)
 
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CURRENT_SOURCE_DIR /home/timur/BaltaevTimur/workspace/lab05/lab05/)
 option(BUILD_TESTS "Build tests" OFF)
 
 if(BUILD_TESTS)                   
